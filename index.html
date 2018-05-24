@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper" id="kek">
+    <div class="info-board">
+        <h1 class="name-of-game">Match-match-game!</h1>
+        <div class="welcome">
+            <p>Hello, my dear friend!!!</p>
+            <p>Today you are can take part in amazing game!</p>
+        </div>
+        <h2 class="how-to-play">How to play</h2>
+        <div class="game-description">
+            <ol>
+                <li>Select 2 cards to try to match the pictures.</li>
+                <li>If you match the pictures you can go again.</li>
+                <li>If they don't match it is the computer turn them.</li>
+                <li>The player that finds all pairs wins!</li>
+                <li>Have fun!!!</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="players-info">
+        <form action="#" class="players-info">
+            <label for="first-name">
+                <span style="padding-right: 2px">First Name</span><input type="text" id="first-name" name="first-name">
+            </label>
+            <label for="last-name">
+                <span style="padding-right: 4px">Last Name</span><input type="text" id="last-name" name="last-name">
+            </label>
+            <label for="email">
+                <span style="padding-right: 35px">Email</span><input type="email" id="email" name="email">
+            </label>
+            <input type="submit" id="start" name="submit" value="Start" class="start">
+        <div class="difShirt">
+            <input type="radio" id="easy"
+                   name="difficult" value="easy">
+            <label for="easy">Easy</label>
+
+            <input type="radio" id="medium"
+                   name="difficult" value="medium">
+            <label for="medium">Medium</label>
+
+            <input type="radio" id="hard"
+                   name="difficult" value="hard">
+            <label for="hard">Hard</label>
+
+            <p>Pick up shirt</p>
+            <input type="radio" id="firstShirt"
+                   name="shirt" value="firstShirt">
+            <label for="firstShirt"><img src="img/logoCards/logo-nba.png" height="100px" width="45px"></label>
+
+            <input type="radio" id="secondShirt"
+                   name="shirt" value="secondShirt">
+            <label for="secondShirt"><img src="img/logoCards/logo-ball.png" height="100px" width="45px"></label>
+
+            <input type="radio" id="thirdShirt"
+                   name="shirt" value="thirdShirt">
+            <label for="thirdShirt"><img src="img/logoCards/logo-basket.png" height="100px" width="45px"></label>
+        </div>
+        </form>
+    </div>
+</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>
